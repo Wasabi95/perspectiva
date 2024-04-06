@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background: #16BFFD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CB3066, #16BFFD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #333;
     margin: 0;
     padding: 40px;
@@ -8,33 +11,56 @@ body {
 
 h1, h2 {
     color: #333;
+    font-size: 35px;
+    background: rgb(15, 182, 118);
+}
+a {
+    text-decoration: none; /* Removes underline by default */
+    color: black; /* Sets default text color */
+    transition: font-size 0.3s; /* Smooth transition effect */
+}
+
+a:hover {
+    font-size: 40px; /* Increases font size on hover */
 }
 
 h1 {
     text-align: center;
+    font-size: 35px;
+    font-size: 35px;
 }
 
 h2 {
-    color: #008080;
+    color: #161717;
     border-bottom: 2px solid #008080;
     padding-bottom: 5px;
+    font-size: 35px;
 }
+b {
+    font-size: 35px;
+}
+
 
 strong {
     font-weight: bold;
+    font-size: 35px;
 }
 
 ol, ul {
     list-style-type: none;
     padding-left: 0;
+    font-size: 25px;
 }
 
 li {
     margin-bottom: 5px;
+    font-size: 25px;
 }
 
 p {
     line-height: 1.5;
+    font-size: 25px;
+    
 }
 
 
