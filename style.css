@@ -15,13 +15,14 @@ h1, h2 {
     background: rgb(15, 182, 118);
 }
 a {
-    text-decoration: none; /* Removes underline by default */
-    color: black; /* Sets default text color */
-    transition: font-size 0.3s; /* Smooth transition effect */
+    text-decoration: none; 
+    color: black;
+    font-size: 35px;
+    transition: font-size 0.3s;
 }
 
 a:hover {
-    font-size: 40px; /* Increases font size on hover */
+   background-color: red;
 }
 
 h1 {
